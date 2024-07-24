@@ -6,7 +6,8 @@ const signUp = async (req, res) => {
   });
 
   res.json({
-    message: "yes",
+    success: true,
+    message: "user created successfully",
   });
 };
 
